@@ -1,0 +1,12 @@
+.car-item {
+  height: 100vh;
+}
+
+.car-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.cap-title {
+  text-shadow: 0 0 5px black;
+}
