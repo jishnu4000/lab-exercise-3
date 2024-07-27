@@ -1,0 +1,27 @@
+.about-section, .map-section  {
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin-bottom: 1em;
+}
+
+.about-section {
+  padding: 0.4em;
+}
+
+.map-section iframe {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-title {
+  padding: 1.5em 0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 991px) {
+  .about-section{
+    margin-bottom: 2em;
+  }
+  .map-section {
+    width: 100%;
+  }
+}
